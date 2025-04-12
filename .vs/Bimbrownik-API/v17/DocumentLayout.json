@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Projekty\\Bimbrownik-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\Bimbrownik-API\\Migrations\\20250412094936_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250412094936_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\addpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\addpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,12 +35,16 @@
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:bimbrownik-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\Bimbrownik-API\\Migrations\\20250412094936_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250412094936_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\bimbrownik-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -42,24 +58,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250412094936_initial migration.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250412094936_initial migration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250412094936_initial migration.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250412094936_initial migration.cs",
-              "RelativeToolTip": "Migrations\\20250412094936_initial migration.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T09:49:36.297Z",
+              "WhenOpened": "2025-04-12T13:44:38.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "AddPostDto.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddPostDto.cs",
+              "RelativeDocumentMoniker": "Models\\AddPostDto.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\AddPostDto.cs",
+              "RelativeToolTip": "Models\\AddPostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T13:55:25.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-12T13:44:33.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Controllers\\PostsController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA5wCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:07:50.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -72,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "data\\ApplicationDbContext.cs",
@@ -85,20 +140,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Post.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Post.cs",
               "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Post.cs",
               "RelativeToolTip": "Models\\Entities\\Post.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T09:30:34.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Bimbrownik-API",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.csproj",
               "RelativeDocumentMoniker": "Bimbrownik-API.csproj",
@@ -111,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -124,7 +179,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:19:21.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Bimbrownik-API.http",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.http",
               "RelativeDocumentMoniker": "Bimbrownik-API.http",
@@ -137,15 +205,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "20250412094936_initial migration.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250412094936_initial migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250412094936_initial migration.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250412094936_initial migration.cs",
+              "RelativeToolTip": "Migrations\\20250412094936_initial migration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T09:19:21.985Z",
+              "WhenOpened": "2025-04-12T09:49:36.297Z",
               "EditorCaption": ""
             }
           ]
