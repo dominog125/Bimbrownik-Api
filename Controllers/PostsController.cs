@@ -59,11 +59,61 @@ namespace Bimbrownik_API.Controllers
             };
 
             dbContext.Post.Add(postEntity);
+
             dbContext.SaveChanges();
             
             return Ok(postEntity);
         }
 
+        [HttpPut]
+        [Route("{id:guid}")]
+        public IActionResult UpdatePost(Guid id,UpdatePostDto updatePostDto) 
+        {
+            var post = dbContext.Post.Find(id);
+
+            if(post == null) 
+            {
+
+                return NotFound();
+
+            }
+
+            post.Name = updatePostDto.Name;
+            
+            post.Description = updatePostDto.Description;
+          
+            post.Author = updatePostDto.Author;
+          
+            post.Title = updatePostDto.Title;
+          
+
+            dbContext.SaveChanges();
+
+            return Ok(post);
+
+        }
+
+        [HttpDelete]
+        [Route("{id:guid}")]
+        public IActionResult Delete(Guid id) 
+        {
+
+            var post = dbContext.Post.Find(id);
+
+            if (post == null)
+            {
+
+                return NotFound();
+
+            }
+
+            dbContext.Post.Remove(post);
+
+            dbContext.SaveChanges();
+
+            return Ok();
+
+        }
     
     }
 }
