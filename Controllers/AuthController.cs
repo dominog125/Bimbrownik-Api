@@ -47,5 +47,27 @@ namespace Bimbrownik_API.Controllers
             return BadRequest("Something went wrong :(");
 
         }
+
+        [HttpPost]
+        [Route("Login")]
+        public async Task<IActionResult> Login(LoginRequestDto loginRequestDto) 
+        {
+            var user = await userManager.FindByEmailAsync(loginRequestDto.Email);
+
+            if(user != null) 
+            {
+                var chceckPasswordResult = await userManager.CheckPasswordAsync(user, loginRequestDto.Password);
+                
+                if (chceckPasswordResult)
+                {
+                    return Ok();
+
+                }
+
+            }
+        
+            return BadRequest("Username or password incorrect");
+
+        }
     }
 }

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,17 +118,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequestDto.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\LoginRequestDto.cs",
+              "RelativeToolTip": "Models\\LoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:40:55.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RegisterRequestDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\RegisterRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\RegisterRequestDto.cs",
               "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\RegisterRequestDto.cs",
               "RelativeToolTip": "Models\\RegisterRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T19:44:32.744Z",
               "EditorCaption": ""
@@ -135,16 +152,16 @@
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "Controllers\\AuthController.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwC4AAAA2AAAA",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAIwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T19:42:15.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20250518193234_Creating Auth Database.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250518193234_Creating Auth Database.cs",
               "RelativeDocumentMoniker": "Migrations\\20250518193234_Creating Auth Database.cs",
@@ -157,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "20250518193212_Creating Auth Database.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Migrations\\ApplicationAuthDb\\20250518193212_Creating Auth Database.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationAuthDb\\20250518193212_Creating Auth Database.cs",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\CommentsController.cs",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddPostDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddPostDto.cs",
               "RelativeDocumentMoniker": "Models\\AddPostDto.cs",
@@ -209,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddCommentDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddCommentDto.cs",
               "RelativeDocumentMoniker": "Models\\AddCommentDto.cs",
@@ -222,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AlcoholCategoriesController.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AlcoholCategoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\AlcoholCategoriesController.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PostsController.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Post.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Post.cs",
@@ -261,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -274,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ApplicationAuthDbContext.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Data\\ApplicationAuthDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationAuthDbContext.cs",
@@ -287,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UpdateCommentDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdateCommentDto.cs",
               "RelativeDocumentMoniker": "Models\\UpdateCommentDto.cs",
@@ -300,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AlcoholCategory.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\AlcoholCategory.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\AlcoholCategory.cs",
@@ -313,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Comment.cs",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -339,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Bimbrownik-API.http",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.http",
               "RelativeDocumentMoniker": "Bimbrownik-API.http",
@@ -352,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Bimbrownik-API.csproj",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.csproj",
               "RelativeDocumentMoniker": "Bimbrownik-API.csproj",
@@ -365,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -378,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UpdateAlcoholCategoryDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdateAlcoholCategoryDto.cs",
               "RelativeDocumentMoniker": "Models\\UpdateAlcoholCategoryDto.cs",
@@ -391,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AddAlcoholCategoryDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddAlcoholCategoryDto.cs",
               "RelativeDocumentMoniker": "Models\\AddAlcoholCategoryDto.cs",
@@ -404,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UpdatePostDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdatePostDto.cs",
               "RelativeDocumentMoniker": "Models\\UpdatePostDto.cs",
@@ -417,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20250518004108_init.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250518004108_init.cs",
               "RelativeDocumentMoniker": "Migrations\\20250518004108_init.cs",
@@ -430,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Bimbrownik-API",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.csproj",
               "RelativeDocumentMoniker": "Bimbrownik-API.csproj",
@@ -442,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
