@@ -4,12 +4,12 @@ using Bimbrownik_API.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bimbrownik_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     
     public class AlcoholCategoriesController : ControllerBase
     {
@@ -22,9 +22,9 @@ namespace Bimbrownik_API.Controllers
 
 
         [HttpGet]
-        public IActionResult GetAllAlcoholCategories()
+        public async Task<IActionResult> GetAllAlcoholCategories()
         {
-            var allAlcoholCategories = dbContext.AlcoholCategories.ToList();
+            var allAlcoholCategories = await dbContext.AlcoholCategories.ToListAsync();
 
             return Ok(allAlcoholCategories);
         }
@@ -46,6 +46,7 @@ namespace Bimbrownik_API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult AddAlcoholCategory(AddAlcoholCategory addAlcoholCategory)
         {
             var alcoholcategoryEntity = new AlcoholCategory()
@@ -64,6 +65,7 @@ namespace Bimbrownik_API.Controllers
 
         [HttpPut]
         [Route("{id:guid}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult UpdateAlocoholCategory(Guid id, UpdateAlcoholCategoryDto updateAlcoholCategoryDto)
         {
             var alcoholCategory = dbContext.AlcoholCategories.Find(id);
@@ -88,6 +90,7 @@ namespace Bimbrownik_API.Controllers
 
         [HttpDelete]
         [Route("{id:guid}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(Guid id)
         {
 

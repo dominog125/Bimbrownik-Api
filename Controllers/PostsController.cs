@@ -1,6 +1,7 @@
 ﻿using Bimbrownik_API.data;
 using Bimbrownik_API.Models;
 using Bimbrownik_API.Models.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -45,6 +46,7 @@ namespace Bimbrownik_API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "User,Admin")]
         public IActionResult AddPost(AddPostDto addPostDto) 
         {
             var postEntity = new Post()
@@ -71,6 +73,9 @@ namespace Bimbrownik_API.Controllers
 
         [HttpPut]
         [Route("{id:guid}")]
+        [Authorize(Roles = "User,Admin")]
+
+
         public IActionResult UpdatePost(Guid id,UpdatePostDto updatePostDto) 
         {
             var post = dbContext.Posts.Find(id);
@@ -99,6 +104,8 @@ namespace Bimbrownik_API.Controllers
 
         [HttpDelete]
         [Route("{id:guid}")]
+        [Authorize(Roles = "User,Admin")]
+
         public IActionResult Delete(Guid id) 
         {
 

@@ -3,6 +3,7 @@ using Bimbrownik_API.Models.Entities;
 using Bimbrownik_API.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Bimbrownik_API.Controllers
 {
@@ -44,6 +45,7 @@ namespace Bimbrownik_API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "User,Admin")]
         public IActionResult AddComment(AddCommentDto addComment)
         {
             var commentEntity = new Comment()
@@ -63,6 +65,7 @@ namespace Bimbrownik_API.Controllers
 
         [HttpPut]
         [Route("{id:guid}")]
+        [Authorize(Roles = "User,Admin")]
         public IActionResult UpdateComment(Guid id, UpdateCommentDto updateCommentDto)
         {
             var comment = dbContext.Comments.Find(id);
@@ -87,6 +90,7 @@ namespace Bimbrownik_API.Controllers
 
         [HttpDelete]
         [Route("{id:guid}")]
+        [Authorize(Roles = "User,Admin")]
         public IActionResult Delete(Guid id)
         {
 
