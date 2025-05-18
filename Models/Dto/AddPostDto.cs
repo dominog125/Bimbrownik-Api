@@ -1,8 +1,8 @@
 ﻿using Bimbrownik_API.Models.Entities;
 
-namespace Bimbrownik_API.Models
+namespace Bimbrownik_API.Models.Dto
 {
-    public class UpdatePostDto
+    public class AddPostDto
     {
         public Guid Id { get; set; }
         public required string Name { get; set; }
@@ -13,6 +13,5 @@ namespace Bimbrownik_API.Models
         public Guid AlcoholCategoryId { get; set; }
 
         public AlcoholCategory? AlcoholCategory { get; set; }
-
     }
 }

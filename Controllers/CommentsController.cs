@@ -1,9 +1,9 @@
 ﻿using Bimbrownik_API.data;
 using Bimbrownik_API.Models.Entities;
-using Bimbrownik_API.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Bimbrownik_API.Models.Dto;
 
 namespace Bimbrownik_API.Controllers
 {

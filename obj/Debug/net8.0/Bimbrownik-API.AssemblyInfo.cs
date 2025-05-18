@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bimbrownik-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31cad81edd3a2ab0b90ceea8f58e20256e4498ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10d7c62eaab8d89d48395d4622d48d6280687b3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bimbrownik-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bimbrownik-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

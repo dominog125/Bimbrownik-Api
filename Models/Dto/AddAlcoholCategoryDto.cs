@@ -1,6 +1,6 @@
 ﻿using Bimbrownik_API.Models.Entities;
 
-namespace Bimbrownik_API.Models
+namespace Bimbrownik_API.Models.Dto
 {
     public class AddAlcoholCategory
     {

@@ -1,5 +1,5 @@
 ﻿using Bimbrownik_API.data;
-using Bimbrownik_API.Models;
+using Bimbrownik_API.Models.Dto;
 using Bimbrownik_API.Models.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

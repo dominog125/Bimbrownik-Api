@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Bimbrownik_API.Models
+namespace Bimbrownik_API.Models.Dto
 {
     public class LoginRequestDto
     {
@@ -12,6 +12,6 @@ namespace Bimbrownik_API.Models
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-      
+
     }
 }

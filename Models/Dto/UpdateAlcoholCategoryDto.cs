@@ -1,4 +1,4 @@
-﻿namespace Bimbrownik_API.Models
+﻿namespace Bimbrownik_API.Models.Dto
 {
     public class UpdateAlcoholCategoryDto
     {

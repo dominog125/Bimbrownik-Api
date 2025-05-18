@@ -1,5 +1,6 @@
 using Bimbrownik_API.data;
 using Bimbrownik_API.Data;
+using Bimbrownik_API.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +30,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("BimbrownikDbConnectionString")));
 builder.Services.AddDbContext<ApplicationAuthDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("BimbrownikAuthDbConnectionString")));
+
+builder.Services.AddScoped<ITokenRepository, TokenRepository>();
 
 builder.Services.AddIdentityCore<IdentityUser>()
     .AddRoles<IdentityRole>()
