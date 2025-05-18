@@ -135,3 +135,5 @@ D:\Projekty\Bimbrownik-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runti
 D:\Projekty\Bimbrownik-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Projekty\Bimbrownik-API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Projekty\Bimbrownik-API\obj\Debug\net8.0\Bimbrownik-API.sourcelink.json
+D:\Projekty\Bimbrownik-API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projekty\Bimbrownik-API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

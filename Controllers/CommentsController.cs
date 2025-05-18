@@ -20,31 +20,31 @@ namespace Bimbrownik_API.Controllers
 
 
         [HttpGet]
-        public IActionResult GetAllPosts()
+        public IActionResult GetAllComments()
         {
-            var allAlcoholCategories = dbContext.Comments.ToList();
+            var allComments = dbContext.Comments.ToList();
 
-            return Ok(allAlcoholCategories);
+            return Ok(allComments);
         }
 
         [HttpGet]
         [Route("{id:guid}")]
-        public IActionResult GetPostByID(Guid id)
+        public IActionResult GetCommentByID(Guid id)
         {
-            var post = dbContext.Comments.Find(id);
+            var comment = dbContext.Comments.Find(id);
 
 
-            if (post == null)
+            if (comment == null)
             {
                 return NotFound();
             }
 
-            return Ok(post);
+            return Ok(comment);
 
         }
 
         [HttpPost]
-        public IActionResult AddAlcoholCategory(AddCommentDto addComment)
+        public IActionResult AddComment(AddCommentDto addComment)
         {
             var commentEntity = new Comment()
             {
@@ -62,7 +62,7 @@ namespace Bimbrownik_API.Controllers
 
         [HttpPut]
         [Route("{id:guid}")]
-        public IActionResult UpdateAlocoholCategory(Guid id, UpdateCommentDto updateCommentDto)
+        public IActionResult UpdateComment(Guid id, UpdateCommentDto updateCommentDto)
         {
             var comment = dbContext.Comments.Find(id);
 

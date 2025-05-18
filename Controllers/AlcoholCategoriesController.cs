@@ -3,11 +3,14 @@ using Bimbrownik_API.Models.Entities;
 using Bimbrownik_API.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Bimbrownik_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+    
     public class AlcoholCategoriesController : ControllerBase
     {
         private readonly ApplicationDbContext dbContext;
@@ -19,7 +22,7 @@ namespace Bimbrownik_API.Controllers
 
 
         [HttpGet]
-        public IActionResult GetAllPosts()
+        public IActionResult GetAllAlcoholCategories()
         {
             var allAlcoholCategories = dbContext.AlcoholCategories.ToList();
 
@@ -28,17 +31,17 @@ namespace Bimbrownik_API.Controllers
 
         [HttpGet]
         [Route("{id:guid}")]
-        public IActionResult GetPostByID(Guid id)
+        public IActionResult GetAlcoholCategoryByID(Guid id)
         {
-            var post = dbContext.Posts.Find(id);
+            var AlcoholCategory = dbContext.AlcoholCategories.Find(id);
 
 
-            if (post == null)
+            if (AlcoholCategory == null)
             {
                 return NotFound();
             }
 
-            return Ok(post);
+            return Ok(AlcoholCategory);
 
         }
 

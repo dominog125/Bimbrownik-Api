@@ -80,7 +80,7 @@
   },
   {
     "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
-    "Method": "GetAllPosts",
+    "Method": "GetAllComments",
     "RelativePath": "api/Comments",
     "HttpMethod": "GET",
     "IsController": true,
@@ -90,7 +90,7 @@
   },
   {
     "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
-    "Method": "AddAlcoholCategory",
+    "Method": "AddComment",
     "RelativePath": "api/Comments",
     "HttpMethod": "POST",
     "IsController": true,
@@ -106,7 +106,7 @@
   },
   {
     "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
-    "Method": "GetPostByID",
+    "Method": "GetCommentByID",
     "RelativePath": "api/Comments/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -122,7 +122,7 @@
   },
   {
     "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
-    "Method": "UpdateAlocoholCategory",
+    "Method": "UpdateComment",
     "RelativePath": "api/Comments/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
