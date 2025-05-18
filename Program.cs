@@ -1,5 +1,7 @@
 using Bimbrownik_API.data;
+using Bimbrownik_API.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -25,6 +27,25 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("BimbrownikDbConnectionString")));
+builder.Services.AddDbContext<ApplicationAuthDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("BimbrownikAuthDbConnectionString")));
+
+builder.Services.AddIdentityCore<IdentityUser>()
+    .AddRoles<IdentityRole>()
+    .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("Bimbrownik")
+    .AddEntityFrameworkStores<ApplicationAuthDbContext>()
+    .AddDefaultTokenProviders();
+
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false; 
+    options.Password.RequireNonAlphanumeric = false;    
+    options.Password.RequireUppercase = false; 
+    options.Password.RequiredLength = 5;
+    options.Password.RequiredUniqueChars = 1;
+});
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>

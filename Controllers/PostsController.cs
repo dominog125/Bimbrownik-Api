@@ -55,7 +55,9 @@ namespace Bimbrownik_API.Controllers
 
                 Author = addPostDto.Author,
 
-                Title = addPostDto.Title
+                Title = addPostDto.Title,
+
+                AlcoholCategoryId = addPostDto.AlcoholCategoryId,
 
                 
             };

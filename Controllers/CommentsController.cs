@@ -48,8 +48,9 @@ namespace Bimbrownik_API.Controllers
         {
             var commentEntity = new Comment()
             {
-                Name = addComment.Name
+                Name = addComment.Name,
 
+                PostId = addComment.PostId,
 
             };
 

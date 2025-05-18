@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Bimbrownik_API.Controllers.AlcoholCategoriesController",
-    "Method": "GetAllPosts",
+    "Method": "GetAllAlcoholCategories",
     "RelativePath": "api/AlcoholCategories",
     "HttpMethod": "GET",
     "IsController": true,
@@ -27,7 +27,7 @@
   },
   {
     "ContainingType": "Bimbrownik_API.Controllers.AlcoholCategoriesController",
-    "Method": "GetPostByID",
+    "Method": "GetAlcoholCategoryByID",
     "RelativePath": "api/AlcoholCategories/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -73,6 +73,22 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDto",
+        "Type": "Bimbrownik_API.Models.RegisterRequestDto",
         "IsRequired": true
       }
     ],

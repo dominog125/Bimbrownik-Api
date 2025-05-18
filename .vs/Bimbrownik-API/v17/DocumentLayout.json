@@ -3,16 +3,72 @@
   "WorkspaceRootPath": "D:\\Projekty\\Bimbrownik-API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\addcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\addcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\addpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\addpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\Bimbrownik-API\\Migrations\\20250518193234_Creating Auth Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250518193234_Creating Auth Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\Bimbrownik-API\\Migrations\\ApplicationAuthDb\\20250518193212_Creating Auth Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\ApplicationAuthDb\\20250518193212_Creating Auth Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\data\\applicationauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:data\\applicationauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\entities\\alcoholcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\entities\\alcoholcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\controllers\\alcoholcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:controllers\\alcoholcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\bimbrownik-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -23,32 +79,8 @@
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:bimbrownik-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\addpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\addpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\controllers\\alcoholcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:controllers\\alcoholcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\addcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\addcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\updatealcoholcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,18 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\addalcoholcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\addalcoholcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\entities\\alcoholcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\entities\\alcoholcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|solutionrelative:models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A007046-C6C1-4B37-AD22-7C5F8F7BECE5}|Bimbrownik-API.csproj|d:\\projekty\\bimbrownik-api\\bimbrownik-api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -94,76 +114,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CommentsController.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\CommentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CommentsController.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\CommentsController.cs",
-              "RelativeToolTip": "Controllers\\CommentsController.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAcwEEAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterRequestDto.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Models\\RegisterRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T18:08:19.429Z",
+              "WhenOpened": "2025-05-18T19:44:32.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "Controllers\\AuthController.cs*",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwC4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:42:15.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-12T09:36:26.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bimbrownik-API.csproj",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.csproj",
-              "RelativeDocumentMoniker": "Bimbrownik-API.csproj",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.csproj",
-              "RelativeToolTip": "Bimbrownik-API.csproj",
+              "Title": "20250518193234_Creating Auth Database.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250518193234_Creating Auth Database.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250518193234_Creating Auth Database.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250518193234_Creating Auth Database.cs",
+              "RelativeToolTip": "Migrations\\20250518193234_Creating Auth Database.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-12T09:25:56.883Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:32:34.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAABcAAAA",
+              "DocumentIndex": 6,
+              "Title": "20250518193212_Creating Auth Database.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Migrations\\ApplicationAuthDb\\20250518193212_Creating Auth Database.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationAuthDb\\20250518193212_Creating Auth Database.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Migrations\\ApplicationAuthDb\\20250518193212_Creating Auth Database.cs",
+              "RelativeToolTip": "Migrations\\ApplicationAuthDb\\20250518193212_Creating Auth Database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T09:19:21.985Z",
+              "WhenOpened": "2025-05-18T19:32:12.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AlcoholCategoriesController.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AlcoholCategoriesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AlcoholCategoriesController.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AlcoholCategoriesController.cs",
-              "RelativeToolTip": "Controllers\\AlcoholCategoriesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:45:07.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -176,33 +183,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bimbrownik-API.http",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.http",
-              "RelativeDocumentMoniker": "Bimbrownik-API.http",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.http",
-              "RelativeToolTip": "Bimbrownik-API.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-12T09:22:01.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PostsController.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\PostsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\PostsController.cs",
-              "RelativeToolTip": "Controllers\\PostsController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAIwDEAAAAWAAAA",
+              "DocumentIndex": 9,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentsController.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "Controllers\\CommentsController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAEwDoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T10:07:50.914Z",
+              "WhenOpened": "2025-05-18T18:08:19.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "AddPostDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddPostDto.cs",
               "RelativeDocumentMoniker": "Models\\AddPostDto.cs",
@@ -215,46 +209,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-12T09:24:03.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UpdateAlcoholCategoryDto.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdateAlcoholCategoryDto.cs",
-              "RelativeDocumentMoniker": "Models\\UpdateAlcoholCategoryDto.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdateAlcoholCategoryDto.cs",
-              "RelativeToolTip": "Models\\UpdateAlcoholCategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AddCommentDto.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddCommentDto.cs",
+              "RelativeDocumentMoniker": "Models\\AddCommentDto.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\AddCommentDto.cs",
+              "RelativeToolTip": "Models\\AddCommentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:50:53.604Z",
+              "WhenOpened": "2025-05-18T18:04:49.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "AddAlcoholCategoryDto.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddAlcoholCategoryDto.cs",
-              "RelativeDocumentMoniker": "Models\\AddAlcoholCategoryDto.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\AddAlcoholCategoryDto.cs",
-              "RelativeToolTip": "Models\\AddAlcoholCategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Title": "AlcoholCategoriesController.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AlcoholCategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlcoholCategoriesController.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\AlcoholCategoriesController.cs",
+              "RelativeToolTip": "Controllers\\AlcoholCategoriesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowHEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:50:08.758Z",
+              "WhenOpened": "2025-05-18T17:45:07.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Controllers\\PostsController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwDsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:07:50.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Post.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Post.cs",
+              "RelativeToolTip": "Models\\Entities\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:30:34.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAC4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T09:19:21.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationAuthDbContext.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Data\\ApplicationAuthDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationAuthDbContext.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Data\\ApplicationAuthDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationAuthDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAgAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:56:41.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "UpdateCommentDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdateCommentDto.cs",
               "RelativeDocumentMoniker": "Models\\UpdateCommentDto.cs",
@@ -268,19 +301,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AddCommentDto.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddCommentDto.cs",
-              "RelativeDocumentMoniker": "Models\\AddCommentDto.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\AddCommentDto.cs",
-              "RelativeToolTip": "Models\\AddCommentDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T18:04:49.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "AlcoholCategory.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\AlcoholCategory.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\AlcoholCategory.cs",
@@ -293,33 +313,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Comment.cs",
               "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Comment.cs",
               "RelativeToolTip": "Models\\Entities\\Comment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T23:53:53.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Post.cs",
-              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Post.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Post.cs",
-              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\Entities\\Post.cs",
-              "RelativeToolTip": "Models\\Entities\\Post.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T09:30:34.396Z",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-12T09:36:26.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
+              "Title": "Bimbrownik-API.http",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.http",
+              "RelativeDocumentMoniker": "Bimbrownik-API.http",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.http",
+              "RelativeToolTip": "Bimbrownik-API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-12T09:22:01.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Bimbrownik-API.csproj",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.csproj",
+              "RelativeDocumentMoniker": "Bimbrownik-API.csproj",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.csproj",
+              "RelativeToolTip": "Bimbrownik-API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-12T09:25:56.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-12T09:24:03.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateAlcoholCategoryDto.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdateAlcoholCategoryDto.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateAlcoholCategoryDto.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdateAlcoholCategoryDto.cs",
+              "RelativeToolTip": "Models\\UpdateAlcoholCategoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:50:53.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddAlcoholCategoryDto.cs",
+              "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\AddAlcoholCategoryDto.cs",
+              "RelativeDocumentMoniker": "Models\\AddAlcoholCategoryDto.cs",
+              "ToolTip": "D:\\Projekty\\Bimbrownik-API\\Models\\AddAlcoholCategoryDto.cs",
+              "RelativeToolTip": "Models\\AddAlcoholCategoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:50:08.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "UpdatePostDto.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Models\\UpdatePostDto.cs",
               "RelativeDocumentMoniker": "Models\\UpdatePostDto.cs",
@@ -332,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "20250518004108_init.cs",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Migrations\\20250518004108_init.cs",
               "RelativeDocumentMoniker": "Migrations\\20250518004108_init.cs",
@@ -345,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Bimbrownik-API",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\Bimbrownik-API.csproj",
               "RelativeDocumentMoniker": "Bimbrownik-API.csproj",
@@ -357,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\Projekty\\Bimbrownik-API\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
