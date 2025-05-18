@@ -23,7 +23,7 @@ namespace Bimbrownik_API.Controllers
         [HttpGet]
         public IActionResult GetAllPosts()
         {
-            var allPosts = dbContext.Post.ToList();
+            var allPosts = dbContext.Posts.ToList();
 
             return Ok(allPosts);
         }
@@ -32,7 +32,7 @@ namespace Bimbrownik_API.Controllers
         [Route("{id:guid}")]
         public IActionResult GetPostByID(Guid id)
         {
-            var post = dbContext.Post.Find(id);
+            var post = dbContext.Posts.Find(id);
             
 
             if (post == null)
@@ -56,9 +56,11 @@ namespace Bimbrownik_API.Controllers
                 Author = addPostDto.Author,
 
                 Title = addPostDto.Title
+
+                
             };
 
-            dbContext.Post.Add(postEntity);
+            dbContext.Posts.Add(postEntity);
 
             dbContext.SaveChanges();
             
@@ -69,7 +71,7 @@ namespace Bimbrownik_API.Controllers
         [Route("{id:guid}")]
         public IActionResult UpdatePost(Guid id,UpdatePostDto updatePostDto) 
         {
-            var post = dbContext.Post.Find(id);
+            var post = dbContext.Posts.Find(id);
 
             if(post == null) 
             {
@@ -98,7 +100,7 @@ namespace Bimbrownik_API.Controllers
         public IActionResult Delete(Guid id) 
         {
 
-            var post = dbContext.Post.Find(id);
+            var post = dbContext.Posts.Find(id);
 
             if (post == null)
             {
@@ -107,7 +109,7 @@ namespace Bimbrownik_API.Controllers
 
             }
 
-            dbContext.Post.Remove(post);
+            dbContext.Posts.Remove(post);
 
             dbContext.SaveChanges();
 

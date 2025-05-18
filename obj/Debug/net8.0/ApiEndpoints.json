@@ -1,5 +1,163 @@
 [
   {
+    "ContainingType": "Bimbrownik_API.Controllers.AlcoholCategoriesController",
+    "Method": "GetAllPosts",
+    "RelativePath": "api/AlcoholCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.AlcoholCategoriesController",
+    "Method": "AddAlcoholCategory",
+    "RelativePath": "api/AlcoholCategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAlcoholCategory",
+        "Type": "Bimbrownik_API.Models.AddAlcoholCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.AlcoholCategoriesController",
+    "Method": "GetPostByID",
+    "RelativePath": "api/AlcoholCategories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.AlcoholCategoriesController",
+    "Method": "UpdateAlocoholCategory",
+    "RelativePath": "api/AlcoholCategories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateAlcoholCategoryDto",
+        "Type": "Bimbrownik_API.Models.UpdateAlcoholCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.AlcoholCategoriesController",
+    "Method": "Delete",
+    "RelativePath": "api/AlcoholCategories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
+    "Method": "GetAllPosts",
+    "RelativePath": "api/Comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
+    "Method": "AddAlcoholCategory",
+    "RelativePath": "api/Comments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addComment",
+        "Type": "Bimbrownik_API.Models.AddCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
+    "Method": "GetPostByID",
+    "RelativePath": "api/Comments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
+    "Method": "UpdateAlocoholCategory",
+    "RelativePath": "api/Comments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateCommentDto",
+        "Type": "Bimbrownik_API.Models.UpdateCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Comments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Bimbrownik_API.Controllers.PostsController",
     "Method": "GetAllPosts",
     "RelativePath": "api/Posts",
@@ -63,23 +221,19 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Bimbrownik_API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
+    "ContainingType": "Bimbrownik_API.Controllers.PostsController",
+    "Method": "Delete",
+    "RelativePath": "api/Posts/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Bimbrownik_API.WeatherForecast, Bimbrownik-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
   }
 ]
