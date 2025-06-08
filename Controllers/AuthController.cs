@@ -11,11 +11,13 @@ namespace Bimbrownik_API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly UserManager<IdentityUser> userManager;
+        private readonly RoleManager<IdentityRole> roleManager;
         private readonly ITokenRepository tokenRepository;
 
-        public AuthController(UserManager<IdentityUser> userManager, ITokenRepository tokenRepository) 
+        public AuthController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, ITokenRepository tokenRepository) 
         {
             this.userManager = userManager;
+            this.roleManager = roleManager;
             this.tokenRepository = tokenRepository;
         }
 
@@ -23,31 +25,29 @@ namespace Bimbrownik_API.Controllers
         [Route("Register")]
         public async Task<IActionResult> Register(RegisterRequestDto registerRequestDto) 
         {
-            var identityUser = new IdentityUser
+            if (!await roleManager.RoleExistsAsync("User"))
+            {
+                await roleManager.CreateAsync(new IdentityRole("User"));
+            }
+
+            var user = new IdentityUser
             {
                 UserName = registerRequestDto.Username,
-                Email = registerRequestDto.Email,
-
+                Email = registerRequestDto.Email
             };
-
-
-            var identityResult = await userManager.CreateAsync(identityUser, registerRequestDto.Password);
-
-            if(identityResult.Succeeded)
+            var createResult = await userManager.CreateAsync(user, registerRequestDto.Password);
+            if (!createResult.Succeeded)
             {
-                if(registerRequestDto.Roles != null && registerRequestDto.Roles.Any()) 
-                {
-                    identityResult = await userManager.AddToRolesAsync(identityUser, registerRequestDto.Roles);
-
-                    if(identityResult.Succeeded) 
-                    {
-                        return Ok("User was registerd! Please login.");
-                    }
-
-                }
-                
+                return BadRequest(createResult.Errors);
             }
-            return BadRequest("Something went wrong :(");
+
+            var roleResult = await userManager.AddToRoleAsync(user, "User");
+            if (!roleResult.Succeeded)
+            {
+                return BadRequest(roleResult.Errors);
+            }
+
+            return Ok("User registered successfully. You may now log in.");
 
         }
 
