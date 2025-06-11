@@ -31,9 +31,9 @@ namespace Bimbrownik_API.Controllers
 
         [HttpGet]
         [Route("{id:guid}")]
-        public IActionResult GetAlcoholCategoryByID(Guid id)
+        public async Task<IActionResult> GetAlcoholCategoryByID(Guid id)
         {
-            var AlcoholCategory = dbContext.AlcoholCategories.Find(id);
+            var AlcoholCategory = await dbContext.AlcoholCategories.FindAsync(id);
 
 
             if (AlcoholCategory == null)
@@ -47,7 +47,7 @@ namespace Bimbrownik_API.Controllers
 
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public IActionResult AddAlcoholCategory(AddAlcoholCategory addAlcoholCategory)
+        public async Task<IActionResult> AddAlcoholCategory(AddAlcoholCategory addAlcoholCategory)
         {
             var alcoholcategoryEntity = new AlcoholCategory()
             {
@@ -56,9 +56,9 @@ namespace Bimbrownik_API.Controllers
 
             };
 
-            dbContext.AlcoholCategories.Add(alcoholcategoryEntity);
+            await dbContext.AlcoholCategories.AddAsync(alcoholcategoryEntity);
 
-            dbContext.SaveChanges();
+            await dbContext.SaveChangesAsync();
 
             return Ok(alcoholcategoryEntity);
         }
@@ -66,9 +66,9 @@ namespace Bimbrownik_API.Controllers
         [HttpPut]
         [Route("{id:guid}")]
         [Authorize(Roles = "Admin")]
-        public IActionResult UpdateAlocoholCategory(Guid id, UpdateAlcoholCategoryDto updateAlcoholCategoryDto)
+        public async Task<IActionResult> UpdateAlocoholCategory(Guid id, UpdateAlcoholCategoryDto updateAlcoholCategoryDto)
         {
-            var alcoholCategory = dbContext.AlcoholCategories.Find(id);
+            var alcoholCategory = await dbContext.AlcoholCategories.FindAsync(id);
 
             if (alcoholCategory == null)
             {
@@ -82,7 +82,7 @@ namespace Bimbrownik_API.Controllers
            
 
 
-            dbContext.SaveChanges();
+           await dbContext.SaveChangesAsync();
 
             return Ok(alcoholCategory);
 
@@ -91,10 +91,10 @@ namespace Bimbrownik_API.Controllers
         [HttpDelete]
         [Route("{id:guid}")]
         [Authorize(Roles = "Admin")]
-        public IActionResult Delete(Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
 
-            var alcoholCategory = dbContext.AlcoholCategories.Find(id);
+            var alcoholCategory = await dbContext.AlcoholCategories.FindAsync(id);
 
             if (alcoholCategory == null)
             {
@@ -105,7 +105,7 @@ namespace Bimbrownik_API.Controllers
 
             dbContext.AlcoholCategories.Remove(alcoholCategory);
 
-            dbContext.SaveChanges();
+            await dbContext.SaveChangesAsync();
 
             return Ok();
 

@@ -20,7 +20,7 @@ namespace Bimbrownik_API.Repositories
         {
             // Create claims
             var claims = new List<Claim>();
-
+            claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Id));
             claims.Add(new Claim(ClaimTypes.Email, user.Email));
 
             foreach (var role in roles)
@@ -36,7 +36,7 @@ namespace Bimbrownik_API.Repositories
                 configuration["Jwt:Issuer"],
                 configuration["Jwt:Audience"],
                 claims,
-                expires: DateTime.Now.AddMinutes(15),
+                expires: DateTime.Now.AddMinutes(120),
                 signingCredentials: credentials);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

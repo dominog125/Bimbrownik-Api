@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Bimbrownik_API.Models.Dto;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace Bimbrownik_API.Controllers
 {
@@ -21,11 +23,15 @@ namespace Bimbrownik_API.Controllers
 
 
         [HttpGet]
-        public IActionResult GetAllComments()
+        public async Task<IActionResult> GetComments([FromQuery] Guid? postId)
         {
-            var allComments = dbContext.Comments.ToList();
+            IQueryable<Comment> query = dbContext.Comments.AsQueryable();
 
-            return Ok(allComments);
+            if (postId.HasValue)
+                query = query.Where(c => c.PostId == postId.Value);
+
+            var comments = await query.ToListAsync();
+            return Ok(comments);
         }
 
         [HttpGet]
@@ -45,14 +51,18 @@ namespace Bimbrownik_API.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "User,Admin")]
+        [Authorize]
         public IActionResult AddComment(AddCommentDto addComment)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
             var commentEntity = new Comment()
             {
                 Name = addComment.Name,
 
                 PostId = addComment.PostId,
+
+                AuthorId = userId,
 
             };
 

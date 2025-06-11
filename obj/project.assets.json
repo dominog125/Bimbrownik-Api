@@ -4338,6 +4338,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
+      "Microsoft.IdentityModel.JsonWebTokens >= 8.0.1",
       "Microsoft.IdentityModel.Tokens >= 8.0.1",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.IdentityModel.Tokens.Jwt >= 8.0.1"
@@ -4414,6 +4415,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "Microsoft.IdentityModel.JsonWebTokens": {
+            "target": "Package",
+            "version": "[8.0.1, )"
           },
           "Microsoft.IdentityModel.Tokens": {
             "target": "Package",

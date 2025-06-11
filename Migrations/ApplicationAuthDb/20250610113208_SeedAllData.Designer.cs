@@ -4,6 +4,7 @@ using Bimbrownik_API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bimbrownik_API.Migrations.ApplicationAuthDb
 {
     [DbContext(typeof(ApplicationAuthDbContext))]
-    partial class ApplicationAuthDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250610113208_SeedAllData")]
+    partial class SeedAllData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

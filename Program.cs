@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
+using Bimbrownik_API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -83,26 +84,24 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     options.TokenValidationParameters = new TokenValidationParameters 
     {
+        
         ValidateIssuer = true,
         ValidateAudience = true,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Audience"],
+        ValidAudiences = new[] { builder.Configuration["Jwt:Audience"] },
         IssuerSigningKey = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
 
     });
 
+builder.Services.AddScoped<IStatisticsService, StatisticsService>();
+builder.Services.AddScoped<IFavoriteService, FavoriteService>();
+
+
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
-    var userManager = services.GetRequiredService<UserManager<IdentityUser>>();
-    await IdentityDataInitializer.SeedRolesAndAdminAsync(roleManager, userManager);
-}
 
 app.UseCors("AllowFrontend");
 
@@ -111,10 +110,9 @@ app.UseCors("AllowFrontend");
     app.UseSwagger();
     app.UseSwaggerUI();
 }*/
-
-
 app.UseSwagger();
 app.UseSwaggerUI();
+
 
 app.UseHttpsRedirection();
 

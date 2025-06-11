@@ -103,7 +103,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "registerRequestDto",
+        "Name": "dto",
         "Type": "Bimbrownik_API.Models.Dto.RegisterRequestDto",
         "IsRequired": true
       }
@@ -112,12 +112,18 @@
   },
   {
     "ContainingType": "Bimbrownik_API.Controllers.CommentsController",
-    "Method": "GetAllComments",
+    "Method": "GetComments",
     "RelativePath": "api/Comments",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -190,14 +196,82 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Bimbrownik_API.Controllers.FavoritesController",
+    "Method": "GetMyFavorites",
+    "RelativePath": "api/Favorites",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.FavoritesController",
+    "Method": "AddFavorite",
+    "RelativePath": "api/Favorites",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Bimbrownik_API.Models.Dto.AddFavoritePostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.FavoritesController",
+    "Method": "RemoveFavorite",
+    "RelativePath": "api/Favorites/{postId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Bimbrownik_API.Controllers.PostsController",
     "Method": "GetAllPosts",
     "RelativePath": "api/Posts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
+    "Parameters": [
+      {
+        "Name": "authorId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Bimbrownik_API.Models.Dto.PostResponseDto, Bimbrownik-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Bimbrownik_API.Controllers.PostsController",
@@ -229,7 +303,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Bimbrownik_API.Models.Dto.PostResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Bimbrownik_API.Controllers.PostsController",
@@ -245,7 +329,7 @@
         "IsRequired": true
       },
       {
-        "Name": "updatePostDto",
+        "Name": "dto",
         "Type": "Bimbrownik_API.Models.Dto.UpdatePostDto",
         "IsRequired": true
       }
@@ -267,5 +351,45 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.StatisticsController",
+    "Method": "Get",
+    "RelativePath": "api/Statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Bimbrownik_API.Models.Dto.StatisticsDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Bimbrownik_API.Controllers.StatisticsController",
+    "Method": "GetForAdmin",
+    "RelativePath": "api/Statistics/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Bimbrownik_API.Models.Dto.StatisticsDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

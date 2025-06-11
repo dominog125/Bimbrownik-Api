@@ -14,7 +14,8 @@ namespace Bimbrownik_API.Models.Dto
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+       
 
-      
+        public string[] Roles { get; set; }
     }
 }

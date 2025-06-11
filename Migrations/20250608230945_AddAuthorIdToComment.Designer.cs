@@ -4,6 +4,7 @@ using Bimbrownik_API.data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bimbrownik_API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250608230945_AddAuthorIdToComment")]
+    partial class AddAuthorIdToComment
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,28 +38,6 @@ namespace Bimbrownik_API.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("AlcoholCategories");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("a1111111-1111-1111-1111-111111111111"),
-                            Name = "Beer"
-                        },
-                        new
-                        {
-                            Id = new Guid("b2222222-2222-2222-2222-222222222222"),
-                            Name = "Wine"
-                        },
-                        new
-                        {
-                            Id = new Guid("c3333333-3333-3333-3333-333333333333"),
-                            Name = "Whisky"
-                        },
-                        new
-                        {
-                            Id = new Guid("d4444444-4444-4444-4444-444444444444"),
-                            Name = "Vodka"
-                        });
                 });
 
             modelBuilder.Entity("Bimbrownik_API.Models.Entities.Comment", b =>
@@ -84,49 +65,6 @@ namespace Bimbrownik_API.Migrations
                     b.HasIndex("AuthorUserId");
 
                     b.ToTable("Comments");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("07777777-7777-7777-7777-777777777777"),
-                            AuthorId = "f4d4g733-4h5e-9i0d-1e99-dddddddddddd",
-                            Name = "Świetny wpis, dzięki!",
-                            PostId = new Guid("e5555555-5555-5555-5555-555555555555")
-                        },
-                        new
-                        {
-                            Id = new Guid("08888888-8888-8888-8888-888888888888"),
-                            AuthorId = "f4d4g733-4h5e-9i0d-1e99-dddddddddddd",
-                            Name = "Ciekawy temat, chętnie spróbuję.",
-                            PostId = new Guid("e5555555-5555-5555-5555-555555555555")
-                        },
-                        new
-                        {
-                            Id = new Guid("09999999-9999-9999-9999-999999999999"),
-                            AuthorId = "f4d4g733-4h5e-9i0d-1e99-dddddddddddd",
-                            Name = "Super rekomendacje.",
-                            PostId = new Guid("f6666666-6666-6666-6666-666666666666")
-                        });
-                });
-
-            modelBuilder.Entity("Bimbrownik_API.Models.Entities.FavoritePost", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("PostId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PostId");
-
-                    b.ToTable("FavoritePosts");
                 });
 
             modelBuilder.Entity("Bimbrownik_API.Models.Entities.Post", b =>
@@ -158,26 +96,6 @@ namespace Bimbrownik_API.Migrations
                     b.HasIndex("AlcoholCategoryId");
 
                     b.ToTable("Posts");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("e5555555-5555-5555-5555-555555555555"),
-                            AlcoholCategoryId = new Guid("a1111111-1111-1111-1111-111111111111"),
-                            AuthorId = "f4d4g733-4h5e-9i0d-1e99-dddddddddddd",
-                            Description = "Krótki przegląd piw z lokalnych browarów.",
-                            Name = "Top 5 Craft Beers",
-                            Title = "Moje ulubione piwa rzemieślnicze"
-                        },
-                        new
-                        {
-                            Id = new Guid("f6666666-6666-6666-6666-666666666666"),
-                            AlcoholCategoryId = new Guid("b2222222-2222-2222-2222-222222222222"),
-                            AuthorId = "e3c3f622-3f4d-7h8c-0d88-cccccccccccc",
-                            Description = "Kilka propozycji win na urodziny i rocznice.",
-                            Name = "Wina na specjalne okazje",
-                            Title = "Polecane wina"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
@@ -239,17 +157,6 @@ namespace Bimbrownik_API.Migrations
                         .HasForeignKey("AuthorUserId");
 
                     b.Navigation("AuthorUser");
-                });
-
-            modelBuilder.Entity("Bimbrownik_API.Models.Entities.FavoritePost", b =>
-                {
-                    b.HasOne("Bimbrownik_API.Models.Entities.Post", "Post")
-                        .WithMany()
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Post");
                 });
 
             modelBuilder.Entity("Bimbrownik_API.Models.Entities.Post", b =>

@@ -3,6 +3,7 @@ using Bimbrownik_API.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bimbrownik_API.Controllers
 {
@@ -14,77 +15,77 @@ namespace Bimbrownik_API.Controllers
         private readonly RoleManager<IdentityRole> roleManager;
         private readonly ITokenRepository tokenRepository;
 
-        public AuthController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, ITokenRepository tokenRepository) 
+        public AuthController(
+            UserManager<IdentityUser> userManager,
+            RoleManager<IdentityRole> roleManager,
+            ITokenRepository tokenRepository)
         {
             this.userManager = userManager;
             this.roleManager = roleManager;
             this.tokenRepository = tokenRepository;
         }
 
-        [HttpPost]
-        [Route("Register")]
-        public async Task<IActionResult> Register(RegisterRequestDto registerRequestDto) 
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register(RegisterRequestDto dto)
         {
-            if (!await roleManager.RoleExistsAsync("User"))
+
+
+            bool isFirstUser = !await userManager.Users.AnyAsync();
+
+            var user = new IdentityUser { UserName = dto.Username, Email = dto.Email };
+            var result = await userManager.CreateAsync(user, dto.Password);
+
+            if (!result.Succeeded)
+                return BadRequest(result.Errors);
+
+            if (isFirstUser)
             {
-                await roleManager.CreateAsync(new IdentityRole("User"));
+                await userManager.AddToRoleAsync(user, "Admin");
+            }
+            else if (dto.Roles != null && dto.Roles.Any())
+            {
+                await userManager.AddToRolesAsync(user, dto.Roles);
+            }
+            else
+            {
+                await userManager.AddToRoleAsync(user, "User");
             }
 
-            var user = new IdentityUser
-            {
-                UserName = registerRequestDto.Username,
-                Email = registerRequestDto.Email
-            };
-            var createResult = await userManager.CreateAsync(user, registerRequestDto.Password);
-            if (!createResult.Succeeded)
-            {
-                return BadRequest(createResult.Errors);
-            }
-
-            var roleResult = await userManager.AddToRoleAsync(user, "User");
-            if (!roleResult.Succeeded)
-            {
-                return BadRequest(roleResult.Errors);
-            }
-
-            return Ok("User registered successfully. You may now log in.");
-
+            return Ok("User registered successfully.");
         }
 
         [HttpPost]
         [Route("Login")]
-        public async Task<IActionResult> Login(LoginRequestDto loginRequestDto) 
+        public async Task<IActionResult> Login(LoginRequestDto loginRequestDto)
         {
             var user = await userManager.FindByEmailAsync(loginRequestDto.Email);
 
-            if(user != null) 
+            if (user != null)
             {
-                var chceckPasswordResult = await userManager.CheckPasswordAsync(user, loginRequestDto.Password);
-                
-                if (chceckPasswordResult)
+                var checkPasswordResult = await userManager.CheckPasswordAsync(user, loginRequestDto.Password);
+
+                if (checkPasswordResult)
                 {
                     var roles = await userManager.GetRolesAsync(user);
 
                     if (roles != null)
                     {
                         // Create Token
-
                         var jwtToken = tokenRepository.CreateJWTToken(user, roles.ToList());
 
                         var response = new LoginResponseDto
                         {
-                            JwtToken = jwtToken
+                            JwtToken = jwtToken,
+                            Username = user.UserName
+                           
                         };
 
                         return Ok(response);
                     }
-
                 }
-
             }
-        
-            return BadRequest("Username or password incorrect");
 
+            return BadRequest("Username or password incorrect");
         }
     }
 }

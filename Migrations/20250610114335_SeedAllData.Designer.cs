@@ -4,6 +4,7 @@ using Bimbrownik_API.data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bimbrownik_API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250610114335_SeedAllData")]
+    partial class SeedAllData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -107,26 +110,6 @@ namespace Bimbrownik_API.Migrations
                             Name = "Super rekomendacje.",
                             PostId = new Guid("f6666666-6666-6666-6666-666666666666")
                         });
-                });
-
-            modelBuilder.Entity("Bimbrownik_API.Models.Entities.FavoritePost", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("PostId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PostId");
-
-                    b.ToTable("FavoritePosts");
                 });
 
             modelBuilder.Entity("Bimbrownik_API.Models.Entities.Post", b =>
@@ -239,17 +222,6 @@ namespace Bimbrownik_API.Migrations
                         .HasForeignKey("AuthorUserId");
 
                     b.Navigation("AuthorUser");
-                });
-
-            modelBuilder.Entity("Bimbrownik_API.Models.Entities.FavoritePost", b =>
-                {
-                    b.HasOne("Bimbrownik_API.Models.Entities.Post", "Post")
-                        .WithMany()
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Post");
                 });
 
             modelBuilder.Entity("Bimbrownik_API.Models.Entities.Post", b =>
